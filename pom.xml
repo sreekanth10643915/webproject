@@ -270,11 +270,11 @@
         <url>http://13.58.62.255:8081/repository/maven-releases</url>
     </repository>
 	
-    <snapshotRepository>
+    <Repository>
 	<id>webproject</id>
         <name>nexus</name>
         <url>http://13.58.62.255:8081/repository/maven-snapshots/</url>
-    </snapshotRepository>
+    </Repository>
 
 	</repositories>
 	
