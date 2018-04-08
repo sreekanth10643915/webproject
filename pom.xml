@@ -263,7 +263,7 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
-<distributionManagement>
+
     <repository>
         <id>webproject</id>
         <name>nexus</name>
@@ -275,7 +275,7 @@
         <name>nexus</name>
         <url>http://13.58.62.255:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
-</distributionManagement>
+
 	</repositories>
 	
 	</project>
