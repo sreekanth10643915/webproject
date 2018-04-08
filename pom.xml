@@ -287,7 +287,7 @@
     </repository>
     <snapshotRepository>
         <id>deployment</id>
-		</name>Internal Release</name>
+		<name>Internal Release</name>
         <url>http://18.216.117.110:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
