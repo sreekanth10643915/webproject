@@ -119,6 +119,13 @@
 			<version>${jetty.version}</version>
 			<scope>provided</scope>
 		</dependency>
+	<dependency>
+			<groupId>javax.servlet</groupId>
+			<artifactId>javax.servlet-api</artifactId>
+			<version>3.0.1</version>
+			
+		</dependency>
+		
 	</dependencies>
 	<build>
 		<finalName>webproject</finalName>
@@ -256,5 +263,19 @@
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
+<distributionManagement>
+    <repository>
+        <id>webproject</id>
+        <name>nexus</name>
+        <url>http://13.58.62.255:8081/repository/maven-releases</url>
+    </repository>
+	
+    <snapshotRepository>
+	<id>webproject</id>
+        <name>nexus</name>
+        <url>http://13.58.62.255:8081/repository/maven-snapshots/</url>
+    </snapshotRepository>
+</distributionManagement>
 	</repositories>
+	
 	</project>
