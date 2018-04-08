@@ -281,11 +281,13 @@
 	
 <distributionManagement>
     <repository>
-        <id>releases</id>
+        <id>deployment</id>
+		<name>Internal Release</name>
         <url>http://18.216.117.110:8081/repository/maven-releases/</url>
     </repository>
     <snapshotRepository>
-        <id>snapshots</id>
+        <id>deployment</id>
+		</name>Internal Release</name>
         <url>http://18.216.117.110:8081/repository/maven-snapshots/</url>
     </snapshotRepository>
 </distributionManagement>
