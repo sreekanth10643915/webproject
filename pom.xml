@@ -254,15 +254,16 @@
 		</repository>
 		<repository>
 			<id>Sonatype Nexus</id>
-			<url>https://oss.sonatype.org/content/repositories/snapshots/</url>
+			<url>http://13.58.62.255:8081/repository/maven-releases</url>
 			<releases>
-				<enabled>false</enabled>
+				<enabled>true</enabled>
 			</releases>
 			<snapshots>
 				<enabled>true</enabled>
 			</snapshots>
 		</repository>
 
+		<!--
     <repository>
         <id>webproject</id>
         <name>nexus</name>
@@ -274,7 +275,7 @@
         <name>nexus</name>
         <url>http://13.58.62.255:8081/repository/maven-snapshots/</url>
     </repository>
-
+	-->
 	</repositories>
 	
 	</project>
